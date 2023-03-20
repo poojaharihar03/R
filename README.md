@@ -72,7 +72,7 @@ var1
 var2
 var3
 
-#Basic data types in R can be divided into the following types:
+# Basic data types in R can be divided into the following types:
 numeric - (10.5, 55, 787)
 integer - (1L, 55L, 100L, where the letter "L" declares this as an integer)
 complex - (9 + 3i, where "i" is the imaginary part)
@@ -102,7 +102,7 @@ class(x)
 x <- TRUE
 class(x)
 
-#Multiline Strings
+# Multiline Strings
 You can assign a multiline string to a variable like this:
 Example
 str <- "Lorem ipsum dolor sit amet,
@@ -120,17 +120,33 @@ sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."
 cat(str)
 
-#String Length
+# String Length
 There are many usesful string functions in R.
 For example, to find the number of characters in a string, use the nchar() function:
 Example
 str <- "Hello World!"
 nchar(str)
 
-#Check a String
+# Check a String
 Use the grepl() function to check if a character or a sequence of characters are present in a string:
 Example
 str <- "Hello World!"
 grepl("H", str)
 grepl("Hello", str)
 grepl("X", str)
+
+# An escape character is a backslash \ followed by the character you want to insert.
+
+An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
+Example
+str <- "We are the so-called "Vikings", from the north."
+str
+Result:
+
+Error: unexpected symbol in "str <- "We are the so-called "Vikings"
+To fix this problem, use the escape character \":
+Example
+The escape character allows you to use double quotes when you normally would not be allowed:
+
+str <- "We are the so-called \"Vikings\", from the north."
+str
