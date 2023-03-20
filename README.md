@@ -1,36 +1,36 @@
 # R-scripts
 Theory
 
-#To output text in R, use single or double quotes:
+# To output text in R, use single or double quotes:
 Example
 "Hello World!"
 
-#To output numbers, just type the number (without quotes):
+# To output numbers, just type the number (without quotes):
 Example
 5
 10
 25
 
-#To do simple calculations, add numbers together:
+# To do simple calculations, add numbers together:
 Example
 5 + 5
 
-#WE output code in R without using a print function:
+# WE output code in R without using a print function:
 Example
 "Hello World!"
 However, R does have a print() function available if you want to use it. This might be useful if you are familiar with other programming languages, such as Python, which often uses the print() function to output code.
 Example
 print("Hello World!")
 
-#And there are times you must use the print() function to output code, for example when working with for loops (which you will learn more about in a later chapter):
+# And there are times you must use the print() function to output code, for example when working with for loops (which you will learn more about in a later chapter):
 Example
 for (x in 1:10) {
   print(x)
 }
 
-#When executing code, R will ignore anything that starts with #.
+# When executing code, R will ignore anything that starts with #.
 
-#R does not have a command for declaring a variable. A variable is created the moment you first assign a value to it. To assign a value to a variable, use the <- sign. To output (or print) the variable value, just type the variable name:
+# R does not have a command for declaring a variable. A variable is created the moment you first assign a value to it. To assign a value to a variable, use the <- sign. To output (or print) the variable value, just type the variable name:
 Example
 name <- "John"
 age <- 40
