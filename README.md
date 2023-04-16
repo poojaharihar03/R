@@ -1,6 +1,6 @@
 # R-scripts
 Theory
-<!-- 
+
 # To output text in R, use single or double quotes:
 Example
 "Hello World!"
@@ -150,4 +150,4 @@ The escape character allows you to use double quotes when you normally would not
 
 str <- "We are the so-called \"Vikings\", from the north."
 str
- -->
+
