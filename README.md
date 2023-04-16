@@ -1,20 +1,6 @@
 # R-scripts
 Theory
 
-# To output text in R, use single or double quotes:
-Example
-"Hello World!"
-
-# To output numbers, just type the number (without quotes):
-Example
-5
-10
-25
-
-# To do simple calculations, add numbers together:
-Example
-5 + 5
-
 # WE output code in R without using a print function:
 Example
 "Hello World!"
